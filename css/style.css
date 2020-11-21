@@ -1,0 +1,89 @@
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #E5E5E5;
+}
+h1{font-size: 66px ; font-weight: 600; line-height: 80px;}
+h2{font-size: 48px; margin-bottom: 30px;}
+p{
+    font-size: 20px;
+    color: #999999;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+section{
+    padding: 120px 0 ;
+}
+
+.bg-light-grey{
+    background-color: #f5f5f5;
+}
+.topmargin-xs{margin-top: 15px;}
+.topmargin-sm{margin-top: 30px;}
+.topmargin-lg{margin-top: 60px;}
+
+.btn{
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+}
+.btn-light{
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+}
+.btn ion-icon{
+    font-size: 14px;
+    margin-left: 7px;
+}
+
+.text-dark{color: black;}
+
+.navbar{
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height: 100px;
+}
+.nav-link{
+    color: #1a1a1a;
+}
+.nav-link:hover{
+    color:blue;
+}
+.logo-brand{
+    min-width: 160px;
+    max-width: 180px;
+}
+.navbar-toggler{font-size: 40px;}
+.navbar-toggler:focus{outline: none;}
+
+#hero{
+    background-image: url('../img/oxdxd.jpg');
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: white;
+    border-radius: 3px;
+}
+#hero p{
+    color: white;
+}
+.content-center{
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+.portfolio-container img{
+    -moz-transition: all o.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+    border-radius: 3px;
+}
+.portfolio-container:hover img{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
